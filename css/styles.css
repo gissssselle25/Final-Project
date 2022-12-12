@@ -1,0 +1,148 @@
+#title {
+  background-color: #D3B299;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #B47B50;
+}
+
+h2{
+  color: #37291F;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5;
+}
+h3 {
+  color: #37291F;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+img {
+  width: 60%;
+}
+
+h5 {
+  color: #37291F;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  text-decoration: center;
+}
+
+p {
+  color: #F1DCCB;
+  text-align: center;
+  font-size:20px;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(18deg);
+  position: absolute;
+}
+
+/* Feature Section */
+#features {
+  padding: 7% 15%;
+  background-color: #D3B299;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #D3B299;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #D3B299;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #D3B299;
+  text-align: center;
+}
+.card {
+  background-color:#F1E7DF;
+  size: 50%;
+}
+.button2 {
+  background-color: #D3B197;
+  border-color: #D3B197;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Resume Section */
+#resume{
+  text-align: center;
+}
+.button1 {
+  background-color: #F1DCCB;
+  border-color: #D3B197;
+  border-radius: 12px;
+  color: #37291F;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+/* Media Query Section */
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
